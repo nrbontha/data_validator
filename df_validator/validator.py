@@ -4,13 +4,13 @@ import sys
 import re
 import numpy as np
 import pandas as pd
-#rom schema import Schema
+
 
 # Suppress pandas warning
 pd.options.mode.chained_assignment = None  # default='warn'
 
 
-class Validator(object):
+class Report(object):
     def __init__(self, file, schema):
 
         self.file = file
